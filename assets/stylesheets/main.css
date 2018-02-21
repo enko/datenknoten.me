@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+}
+
+.masthead.segment {
+    min-height: 400px;
+    padding: 1rem 0rem;
+}
+
+.masthead *:first-child {
+    margin-top: 3rem;
+}
+
+.masthead h1.ui.header {
+    margin-bottom: 0rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+article {
+    font-size: 1rem;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+article p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.ui.text.container {
+    max-width: 850px !important;
+}

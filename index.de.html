@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <title>Datenknoten Server Dienste</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.css"
+            integrity="sha256-FpjP45Pz019159CFCReBCsZtVeCvGawN2Om1w+SIi0A="
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="/assets/stylesheets/main.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    </head>
+    <body>
+        <header class="ui inverted vertical masthead center aligned segment">
+            <div class="ui text container">
+                <img
+                    src="/assets/images/logo.png"
+                    alt="Datenknoten Logo"
+                    class="ui small centered image"
+                    />
+                <h1 class="ui inverted header">
+                        datenknoten
+                </h1>
+                <h2>
+                    Server Dienste
+                </h2>
+            </div>
+        </header>
+        <main class="ui text container">
+            <section class="ui middle aligned stackable grid container">
+                <article class="row">
+                    <div class="thirteen wide column">
+                        <h3 class="ui header">Was für Dienste</h3>
+                        <p>
+                            Ich, das
+                            heißt <a href="https://tim.schumacher.im">Tim
+                            Schumacher</a> betreibe einen Server der
+                            zur dezentralen Kommunikation über
+                            das <a href="https://de.wikipedia.org/w/xmpp">XMPP</a>-Protokoll
+                            genutzt werden kann. Ich versuche den
+                            Server nach besten Wissen und gewissen zu
+                            betreiben. Auf folgenden Domains ist mein
+                            Server erreichbar:
+                        </p>
+                        <ul>
+                          <li>boese-ban.de</li>
+                          <li>datenknoten.me</li>
+                          <li>kaoskinder.de</li>
+                        </ul>
+                        <p>
+                          Ich setze als
+                          Server-Software <a href="https://prosody.im">Prosody</a>
+                          in der Version 0.10 ein. Folgende
+                          Komponenten Sind aktiv:
+                        </p>
+                        <ul>
+                          <li>Multi User Chat (muc)</li>
+                          <li>HTTP-Upload (100 MB max pro User, 20 MB
+                            maximal pro Datei, Dateien werden 30 Tage aufbewahrt).</li>
+                        </ul>
+                        <p>
+                          Um dir ein neues Konto zu beziehen must du
+                          <a href="https://datenknoten.me/registrieren/">das Registrierungsformular</a> benutzen.
+                        </p>
+                    </div>
+                    <div class="three wide column">
+                        <i class="ui massive server icon"></i>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="three wide column">
+                            <i class="ui massive lock icon"></i>
+                    </div>
+                    <div class="thirteen wide column">
+                        <h3 class="ui header">Sicherheit</h3>
+                        <p>
+                          Ich betreibe den Server in der
+                          Standard-Konfiguration was
+                          Sicherheitsaspekte geht, da ich hier den
+                          Entwicklern von Prosody sehr
+                          vertraue. Die TLS-Zertifikate beziehe ich
+                          über <a href="https://letsencrypt.org/">Let's Encrypt</a>. Der SHA512-Fingerprint des
+                          aktuellen Zertifikates ist:
+                        </p>
+                        <pre>
+51:0D:D2:3F:C8:D1:68:DC:E0:6F:DC:EC:AB:00:ED:09
+79:43:AA:66:8C:11:9C:DD:1F:36:12:C7:5F:02:18:B5
+84:CE:0F:5A:2A:89:4E:A0:F4:B0:57:D8:8E:86:9C:7D
+B3:81:82:12:CE:DE:53:FA:7A:4C:61:E2:9C:60:BF:A4
+                        </pre>
+                    </div>
+                </article>
+
+                <article class="row">
+                  <div class="thirteen wide column">
+                    <h3 class="ui header">Empfohlene Programme</h3>
+                    <p>
+                      Es folgt nun eine Auflistung je nach
+                      Plattform mit Programmen, die ich denke die
+                      am besten mit dem XMPP-Protokoll
+                      funktionieren. Für fast alle Platformen kann
+                      ich eine Empfehlung aussprechen, bis aus
+                      iOS, dort gibt es meiner Meinung nach keinen
+                      empfehlenswertes Chat-Programm auf Basis des
+                      XMPP-Protokolls.
+                    </p>
+                    <h4>Linux</h4>
+                    <p>
+                      Unter Linux kann ich bedenkenlos <a href="https://www.gajim.org/">Gajim</a>
+                      empfehlen. Gajim ist zwar visuell noch im
+                      letzten Jahrzehnt stecken geblieben, aber
+                      funktioniert dafür einwandfrei unterstützt alle
+                      Features, inklusive der relativ neuen
+                      Verschlüsselungsmethode <a hre="https://de.wikipedia.org/wiki/OMEMO">OMEMO</a>.
+                    </p>
+                    <h4>Windows</h4>
+                    <p>
+                      Auch hier gilt das selbe wie unter
+                      Linux: <a href="https://www.gajim.org/">Gajim</a>
+                    </p>
+                    <h4>Android</h4>
+                    <p>
+                      Hier gibt es das aktuell beste XMPP-Programm am
+                      Markt,
+                      nämlich <a href="https://conversations.im">Conversations</a>.
+                    </p>
+                    <h4>Mac OSX</h4>
+                    <p>
+                      Hier kenne ich mich nicht so gut aus, weil ich
+                      es nicht benutze, aber mir wurde gesagt das
+                      <a href="https://adium.im/">Adium</a> wohl ganz
+                      gut ist.
+                    </p>
+                  </div>
+                  <div class="three wide column">
+                    <i class="ui massive desktop icon"></i>
+                  </div>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
